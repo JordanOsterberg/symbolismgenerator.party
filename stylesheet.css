@@ -1,0 +1,17 @@
+* {
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+body {
+  background-color: #f0f2a2;
+}
+
+h1 {
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 17%;
+  font-size: 120px;
+  word-wrap: break-word;
+}
