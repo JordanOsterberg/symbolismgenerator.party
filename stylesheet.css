@@ -8,6 +8,14 @@ footer {
   margin-left: 10px;
 }
 
+#doge {
+  display: block;
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -78,7 +86,13 @@ h1 {
   width: 100%;
   box-sizing: border-box;
   text-align: center;
-  margin-top: 17%;
+  margin-top: 11%;
   font-size: 120px;
   word-wrap: break-word;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+    }
 }
