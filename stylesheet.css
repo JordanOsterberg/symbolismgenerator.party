@@ -1,5 +1,10 @@
+@font-face {
+  font-family: comic;
+  src: url(comicsans.ttf);
+}
+
 * {
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: comic, sans-serif;
 }
 
 footer {
@@ -9,10 +14,13 @@ footer {
 }
 
 #doge {
+  position: fixed;
   display: block;
   margin: 0 auto;
   margin-left: auto;
   margin-right: auto;
+  left: 0;
+  right: 0;
   margin-top: 65px;
 }
 
